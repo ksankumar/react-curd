@@ -1,0 +1,29 @@
+{
+  "name": "ffn-server",
+  "version": "1.0.0",
+  "description": "Freedom Financial Network's Code Assessment",
+  "main": "index.js",
+  "author": "Santhosh Kumar, Krishnan",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksankumar/freedomfinancialnetwork-assessment.git"
+  },
+  "keywords": [
+    "Code",
+    "Assessment"
+  ],
+  "bugs": {
+    "url": "https://github.com/ksankumar/freedomfinancialnetwork-assessment/issues"
+  },
+  "homepage": "https://github.com/ksankumar/freedomfinancialnetwork-assessment#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.10"
+  }
+}

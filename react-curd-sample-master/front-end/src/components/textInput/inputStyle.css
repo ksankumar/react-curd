@@ -1,0 +1,166 @@
+.field {
+    width: 100%;
+    height: 56px;
+    border-radius: 4px;
+    position: relative;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 5px;
+}
+
+.field:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.field.active {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid #1867c0;
+}
+
+.field input {
+    width: 100%;
+    height: 56px;
+    position: relative;
+    padding: 0px 55px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.87);
+    outline: none;
+    box-shadow: 0px 4px 20px 0px transparent;
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.field input::-webkit-input-placeholder,
+.field input::-moz-placeholder,
+.field input:-ms-input-placeholder,
+.field input:-moz-placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.field.active input {
+    padding: 24px 50px 8px 55px;
+}
+
+.field.active input+label {
+    top: 4px;
+    opacity: 1;
+}
+
+.field.active input:focus+label {
+    color: #1867c0;
+}
+
+.field input+label {
+    position: absolute;
+    top: 24px;
+    left: 55px;
+    font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.field input+label.error {
+    color: #ec392f;
+}
+
+.field p.predicted {
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #e0e0e0;
+    opacity: 1;
+    pointer-events: none;
+}
+
+.input-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.input-icon i {
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.input-icon i:after {
+    content: "";
+}
+
+.input-icon:after {
+    position: absolute;
+    top: 0.6em;
+    bottom: 0.6em;
+    display: block;
+    content: "";
+    transition: all 0.35s ease-in-out;
+}
+
+.field,
+.field input,
+.field input+label,
+.input-icon i,
+.input-icon i:after {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.field input:focus~.append-icon i {
+    color: #1867c0;
+}
+
+.field input:focus~.append-icon:after {
+    border-right-color: #1867c0;
+}
+
+.append-icon {
+    left: 20px;
+}
+
+.append-icon:after {
+    left: 25px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.prepend-icon {
+    right: 15px;
+    cursor: pointer;
+}
+
+.prepend-icon:after {
+    right: 30px;
+    border-left: 1px solid #e5e5e5;
+}
+
+.field input:focus~.prepend-icon i {
+    color: #ec392f;
+}
+
+.field input:focus~.prepend-icon:after {
+    border-left-color: #1867c0;
+}

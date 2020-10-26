@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb0c6463-ac50-40a4-8542-71cb0d5af97b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/images/ffn_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/images/freedom_logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/components/CustomerList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/components/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/service/apis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/service/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/service/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/service/index1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/views/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front-end" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="238" />
+    <option name="y" value="47" />
+    <option name="width" value="1554" />
+    <option name="height" value="999" />
+  </component>
+  <component name="ProjectId" id="1Y5D0dCo9YJGKSUZjdADUtdxguG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front-end/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb0c6463-ac50-40a4-8542-71cb0d5af97b" name="Default Changelist" comment="" />
+      <created>1582223340109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582223340109</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="397" y="173" key="SettingsEditor" timestamp="1582232314909">
+      <screen x="0" y="23" width="1792" height="1023" />
+    </state>
+    <state x="397" y="173" key="SettingsEditor/0.23.1792.1023@0.23.1792.1023" timestamp="1582232314909" />
+    <state x="550" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1582223376416">
+      <screen x="0" y="23" width="1792" height="1023" />
+    </state>
+    <state x="550" y="369" key="com.intellij.ide.util.TipDialog/0.23.1792.1023@0.23.1792.1023" timestamp="1582223376416" />
+  </component>
+</project>
